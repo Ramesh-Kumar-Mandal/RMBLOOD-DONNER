@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContectUsActivity">
+
+    <ImageView
+        android:id="@+id/image12"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rameswh"
+        tools:ignore="MissingConstraints" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:textColor="#DA0C0C"
+    android:textSize="20dp"
+    android:layout_margin="5dp"
+    android:textStyle="bold|italic"
+    android:layout_height="wrap_content"
+    android:text="Developer:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#DA0C0C"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:text="Ramesh Kumar Mandal:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#DA0C0C"
+        android:textSize="30dp"
+        android:layout_margin="5dp"
+        android:textStyle="italic|bold"
+        android:autoLink="phone"
+        android:layout_height="wrap_content"
+        android:text="+917973063418"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#DA0C0C"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:autoLink="email"
+        android:textStyle="bold|italic"
+        android:layout_height="wrap_content"
+        android:text="rameshmandal9056@gmail.com"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#09738E"
+        android:textSize="25dp"
+
+        android:layout_margin="5dp"
+        android:autoLink="all"
+        android:textStyle="bold|italic"
+        android:layout_height="wrap_content"
+        android:text="Skype Id:+9779824863140"/>
+
+
+
+</LinearLayout>

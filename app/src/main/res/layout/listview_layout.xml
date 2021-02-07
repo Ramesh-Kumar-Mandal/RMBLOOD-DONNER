@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/btn_selector"
+    android:padding="10dp">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/image"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="uaernamame"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:autoLink="email"
+            android:padding="5dp"
+            android:text="email"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/phoneno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:autoLink="phone"
+            android:text="phoneno"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bloodgroup"
+            android:gravity="center"
+            android:textColor="#ED1717"
+
+            android:padding="5dp"
+            android:text="bloodgroup"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:id="@+id/edit"
+            android:src="@drawable/add" />
+
+    </LinearLayout>
+
+</LinearLayout>

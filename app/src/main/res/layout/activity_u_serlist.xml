@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper3"
+    tools:context=".USerlistActivity">
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Find donner"
+     android:textStyle="italic"
+     android:textSize="30dp"
+     android:gravity="center"
+     android:textColor="@drawable/btn_selector"
+  />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/phone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/address"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="location"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/location"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="bloodgroup"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/bloodgroup"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+      android:scaleType="centerCrop"
+  android:src="@drawable/hell"
+        android:id="@+id/image"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+  <Button
+      android:layout_width="0dp"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"
+      android:id="@+id/cancle"
+      style="@style/btnStyle"
+      android:text="Bro"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/find"
+            style="@style/btnStyle"
+            android:text="find"/>
+
+    </LinearLayout>
+
+</LinearLayout>

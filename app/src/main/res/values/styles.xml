@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.Design.NoActionBar">
+        <item name="editTextStyle">@style/Editext</item>
+        <item name="buttonStyle">@drawable/btn_selector</item>
+    </style>
+
+    <style name="btnStyle" parent="Widget.AppCompat.Button">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+<item name="android:background">@drawable/btn_selector</item>
+    </style>
+
+
+    <style name="Editext" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+
+        <item name="android:background">@drawable/text_selector</item>
+
+    </style>
+</resources>

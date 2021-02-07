@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wallpaper6"
+        android:orientation="vertical"
+        tools:context=".HOMEMAINActivity">
+
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/donerlist"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/bbtn_selector1"
+            android:gravity="start"
+            android:padding="20dp"
+            android:text="Donner List"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/finddonner"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/bbtn_selector3"
+            android:gravity="start"
+            android:padding="20dp"
+            android:text="find donner"
+
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bloodbank"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/bbtn_selector5"
+            android:gravity="start"
+            android:padding="20dp"
+            android:text="blood bank"
+
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/bbtn_selector4"
+            android:gravity="start"
+            android:padding="20dp"
+            android:text=" map"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/contectus"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/bbtn_selector2"
+            android:gravity="start"
+            android:padding="20dp"
+            android:text="contect us"
+
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/aboutus"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/bbtn_selector6"
+            android:gravity="start"
+            android:padding="20dp"
+            android:text="about us"
+
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/bbtn_selector5"
+            android:gravity="start"
+            android:padding="20dp"
+            android:text="LOGOUT "
+
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</ScrollView>

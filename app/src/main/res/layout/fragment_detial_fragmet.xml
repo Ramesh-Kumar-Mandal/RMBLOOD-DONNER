@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper3"
+    tools:context=".DetialFragmet">
+
+    <!-- TODO: Update blank fragment layout -->
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="250dp"
+       android:src="@mipmap/ic_launcher_foreground"
+       android:id="@+id/iamge1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#06F412"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="35dp"
+        android:id="@+id/username"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:textColor="#068BF4"
+        android:gravity="center"
+        android:padding="5dp"
+        android:autoLink="email"
+        android:textSize="25dp"
+        android:id="@+id/email"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="phoneno"
+        android:textColor="#068BF4"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="25dp"
+        android:autoLink="phone"
+        android:id="@+id/phoneno"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="address"
+        android:textColor="#5E06FA"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="25dp"
+        android:id="@+id/address"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bloodgroup1"
+      android:textColor="#F40606"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="35dp"
+        android:id="@+id/bloodgroup1"/>
+
+</LinearLayout>

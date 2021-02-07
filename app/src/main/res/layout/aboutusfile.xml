@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/rameswh"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:text="We  develope this appliction for User of several people atbthr sanme timre and this application find the adject blood group .Any user can search the relative blood and direct conntect with their Phone Number  As well as User can find their Blood group through google map and nerast donner can find .Then we have to contect them directily . "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+android:text="I hope this application help us to find donner and accepter"/>
+</LinearLayout>

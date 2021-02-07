@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_selector">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/image"
+        android:src="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patent name"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patent address"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:id="@+id/address"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patent phoneno"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/phone"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patent bloodgroup"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FB0303"
+        android:id="@+id/bloodgroup"/>
+
+
+</LinearLayout>
